@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(177, 247, 252);
+}
+
+#englishButton {
+    background-color: rgb(244,118,121);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+#japaneseButton {
+    background-color: rgb(121, 244, 121);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+  
+#chineseButton {
+    background-color: rgb(82, 178, 207);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+
+#koreanButton {
+    background-color: rgb(255, 241, 146);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+
+#vietnameseButton { 
+    background-color: rgb(177, 168, 247);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
