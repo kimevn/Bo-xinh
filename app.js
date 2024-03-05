@@ -31,7 +31,9 @@ const vietnameseButton = document.getElementById("vietnameseButton");
     });
 
     vietnameseButton.addEventListener("click", function(){
-        window.location.href = "/memo/memo.html"
+      setTimeout(()=>{
+        window.location.href = "memo/memo.html"
+        },200)
     })
     
 
